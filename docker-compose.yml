@@ -1,0 +1,101 @@
+#version: "3.8"
+networks:
+  # 共用其他compose的网段
+  higec_net:
+    external: true
+services:
+  gateway:
+    image: liv****k-base-gateway:latest
+    container_name: liv****k-gateway
+    restart: always
+    ports:
+      - 9301:9301
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.71
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  core:
+    image: liv****k-base-core:latest
+    container_name: liv****k-core
+    restart: always
+    ports:
+      - 9304:9304
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.74
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  device:
+    image: liv****k-base-device:latest
+    container_name: liv****k-device
+    restart: always
+    ports:
+      - 9303:9303
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.73
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  family:
+    image: liv****k-base-family:latest
+    container_name: liv****k-family
+    restart: always
+    ports:
+      - 9305:9305
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.75
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  field:
+    image: liv****k-base-field:latest
+    container_name: liv****k-field
+    restart: always
+    ports:
+      - 9307:9307
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.77
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  poultry:
+    image: liv****k-base-poultry:latest
+    container_name: liv****k-poultry
+    restart: always
+    ports:
+      - 9308:9308
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.78
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  record:
+    image: liv****k-base-record:latest
+    container_name: liv****k-record
+    restart: always
+    ports:
+      - 9309:9309
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.79
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+ 
+  system:
+    image: liv****k-base-system:latest
+    container_name: liv****k-system
+    restart: always
+    ports:
+      - 9306:9306
+    networks:
+      higec_net:
+        ipv4_address: 172.19.8.76
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
