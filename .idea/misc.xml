@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-item-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-item-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-order-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-order-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-pay-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-pay-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-scheduler-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-scheduler-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-user-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dm-user-provider/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+server:
+  port: 8075
+spring:
+  application:
+    name: dm-item-consumer
+  cloud:
+    openfeign:
+      # 启用熔断处理
+      circuitbreaker:
+        enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7776/eureka/
+  instance:
+    prefer-ip-address: true
+logging:
+  level:
+    io.github.resilience4j: debug

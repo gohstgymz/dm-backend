@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/dm-eureka-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-eureka-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-eureka-server/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-item-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-item-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-order-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-order-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-pay-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-pay-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-scheduler-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-scheduler-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-user-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-user-consumer/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-user-provider/src/main/java" charset="UTF-8" />
+  </component>
+</project>
